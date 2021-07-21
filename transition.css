@@ -1,0 +1,80 @@
+img{
+    max-height: 500px;
+}
+
+div {
+    display: inline;
+    
+}
+
+.trees {
+    position:absolute;
+    margin-left:450px;
+    
+}
+
+.water {
+    positin: absolute;
+    margin-left: 0px;
+}
+
+.other {
+    position: absolute;
+    margin-left: 1240px;
+    
+}
+
+.slide {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(231, 231, 228, 0.66);
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .8s ease;
+}
+
+.panel:hover .slide {
+    height: 32em;
+}
+
+.panel {
+    position: relative;
+    width: 50%;
+}
+
+.text {
+    color: rebeccapurple;
+    font-size: 50px;
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    right: 10%;
+    text-align: center;
+}
+
+.first {
+    color: rebeccapurple;
+    font-size: 20px;
+    position: absolute;
+     top: 40%; 
+    left: 10%;
+    right: 50%;
+    text-align: center;
+    /* Not sure why this isn't adjusting when I put in new values? */
+}
+
+.second {
+    color: rebeccapurple;
+    font-size: 50px;
+    position: relative;
+     top: 40%; 
+    left: 10%;
+    right: 50%;
+    text-align: center;
+}
+
+/* Code inspired by https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_overlay_slidebottom
+Accessed on 7/20/21  */

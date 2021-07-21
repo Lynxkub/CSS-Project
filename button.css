@@ -1,0 +1,11 @@
+button{
+    color: white;
+    background-color: blue;
+    height: 100px;
+    width: 250px;
+    border-radius: 10px;
+    font-size: 3em;
+  }
+  button:hover{
+   background-color: hsl(230, 100%, 30%);
+  }
